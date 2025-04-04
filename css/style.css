@@ -2976,7 +2976,7 @@ ul.social-intro li a:hover i {
 .logo-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Ajustez cette valeur pour plus ou moins d'espace entre les logos */
+  gap: 80px; /* Augmentez cette valeur pour plus d'espace entre les logos */
   margin-bottom: 20px; /* Espace entre les rangées */
   justify-content: center; /* Centre les logos dans la rangée */
 }
@@ -3008,4 +3008,5 @@ ul.social-intro li a:hover i {
 .project-logo:hover::after {
   opacity: 1;
 }
+
 
