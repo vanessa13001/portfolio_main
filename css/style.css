@@ -2982,3 +2982,11 @@ ul.social-intro li a:hover i {
   opacity: 1;
 }
 
+.lien-personnalise {
+  color: white; /* Couleur par défaut */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+.lien-personnalise:hover {
+  color: #1E90FF; /* Couleur bleue au survol */
+}
