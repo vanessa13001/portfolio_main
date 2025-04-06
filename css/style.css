@@ -1,12 +1,4 @@
-﻿/*
-Template Name: Sohag Info
-Author: Riajul Islam Leon
-Author URI: https://riajulleon.com
-Description: Riajul Islam Leon
-Version: 2.0
-*/
-
-/*-----------------------------------------------------
+﻿/*-----------------------------------------------------
 [Table of contents]
   + General
     - Dark Body
@@ -14,7 +6,6 @@ Version: 2.0
   + Header
     - Navigation
   + Main Section
-    + miscellaneous
       - Text Rotator
     + About
       - Personal Informations
@@ -22,9 +13,6 @@ Version: 2.0
       - Skills
     - Resume
     - Portfolio
-    + Blog
-      - Latest Posts
-      - Blog Page
         - Posts
         - Comments
         - Comments Form
@@ -976,13 +964,6 @@ html:not(.lt-ie10) .not-animated {
     animation-delay: 0.25s;
   }
 
-  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(5) a::after,
-.no-touch .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(5) span {
-    -webkit-animation-delay: 0.25s;
-    -moz-animation-delay: 0.25s;
-    animation-delay: 0.25s;
-  }
-
   /* [ MAIN SECTION ] */
 /*================================================== */
 
@@ -1232,17 +1213,14 @@ div.container.page-title {
 	margin:0 auto;
 }
 
-.personal-info .image-container:before {
-	display: inline-block;
-    /* position: absolute; */
-    /* content: ''; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    transform: translate3d(26px, 26px, -26px);
+.personal-info .image-container img {
+  width: 280px; /* Définissez la largeur souhaitée */
+  height: 380px; /* Définissez la hauteur souhaitée */
+  object-fit: cover; /* Assurez-vous que l'image couvre l'espace sans déformation */
+  transform: translateX(70px); /* Déplace l'image de 10 pixels vers la droite */
 }
+
+
 @media (min-width:1025px) {
 	.personal-info .row {
 		margin-top:26px;
@@ -2421,7 +2399,7 @@ ul.social-intro li a:hover i {
   padding-right: 10px;
 }
 
-/* [ RESONSIVE DESIGN STYLES ] */
+/* [ RESPONSIVE DESIGN STYLES ] */
 /*================================================== */
 @media only screen and (max-width:1100px) {
   .main-text-container {
@@ -2873,11 +2851,6 @@ ul.social-intro li a:hover i {
 	  margin: 30px 0 25px !important;
   }
 
-  .personal-info a.btn {
-    margin: 15px 0 35px;
-
-  }
-
   .personal-info .image-container:before {
 	  display:none;
   }
@@ -2976,7 +2949,7 @@ ul.social-intro li a:hover i {
 .logo-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 80px; /* Augmentez cette valeur pour plus d'espace entre les logos */
+  gap: 80px; /* Augmentez cette valeur si nécessaire */
   margin-bottom: 20px; /* Espace entre les rangées */
   justify-content: center; /* Centre les logos dans la rangée */
 }
@@ -3008,5 +2981,4 @@ ul.social-intro li a:hover i {
 .project-logo:hover::after {
   opacity: 1;
 }
-
 

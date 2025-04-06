@@ -1,6 +1,5 @@
 /**
  * @module       jQuery page transition
- * @author       Roman Kravchuk (JeremyLuis)
  * @license      MIT
  * @version      1.1.3
  * @description  Smooth transition between pages
