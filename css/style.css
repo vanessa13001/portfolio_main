@@ -1,31 +1,4 @@
-﻿/*-----------------------------------------------------
-[Table of contents]
-  + General
-    - Dark Body
-    - Preloader
-  + Header
-    - Navigation
-  + Main Section
-      - Text Rotator
-    + About
-      - Personal Informations
-      - Resume Panels
-      - Skills
-    - Resume
-    - Portfolio
-        - Posts
-        - Comments
-        - Comments Form
-    + Contact
-      - Left Side
-      - Social Media Icons
-      - Right Side
-- Responsive Design Styles
----------------------------------------------------
-/* [ GENERAL ] */
-/*================================================== */
-
-body,
+﻿body,
 html {
   font-size: 100%;
   padding: 0;
@@ -2989,4 +2962,11 @@ ul.social-intro li a:hover i {
 
 .lien-personnalise:hover {
   color: #1E90FF; /* Couleur bleue au survol */
+}
+
+/* Ajoute ce code à ton fichier CSS */
+.portfolio-section ul li a img {
+  width: 426px;
+  height: 240px;
+  object-fit: cover; /* Assure que l'image couvre tout l'espace sans déformation */
 }
