@@ -2918,6 +2918,13 @@ ul.social-intro li a:hover i {
   }
 }
 
+/* Ajoutez cette règle pour cibler le logo GTK */
+.gtk-logo {
+  position: absolute;
+  top: -45px; /* Ajustez cette valeur pour déplacer le logo vers le bas */
+  right: 220px; /* Ajustez cette valeur pour déplacer le logo vers la gauche */
+}
+
 /* Project Logos */
 .logo-row {
   display: flex;
@@ -2925,6 +2932,7 @@ ul.social-intro li a:hover i {
   gap: 80px; /* Augmentez cette valeur si nécessaire */
   margin-bottom: 20px; /* Espace entre les rangées */
   justify-content: center; /* Centre les logos dans la rangée */
+  position: relative;
 }
 
 .project-logo {
@@ -2954,6 +2962,7 @@ ul.social-intro li a:hover i {
 .project-logo:hover::after {
   opacity: 1;
 }
+
 
 .lien-personnalise {
   color: white; /* Couleur par défaut */
